@@ -15,6 +15,28 @@ This project is under active development. The main aim of this project is to imp
 
 ### Steps to follow to provision the infrastructure:
 
+1. Clone the project in your workspace 
+
+```
+git clone https://github.com/Venkateshg07/s3crossreplication.git
+
+```
+2. Select the reopen in the container option from the remote comand pallete in the vscode  [Refer](https://www.youtube.com/watch?v=mi8kpAgHYFo) 
+
+3. Build the docker images with the help of Remote-Container Extension(https://code.visualstudio.com/docs/remote/containers-tutorial) and deploy Containers to get access to the development env
+
+4. you have all the necessary tools in this dev container to start the contribution and test the scripts 
+
+5. Export the AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY in the dev container to start using the terraform scripts. Note: You need create these two env variables in the circleci with the help of project setting to start using the CI/CD workflow 
+
+6. Now you can plan and apply the terraform
+
+7. Run the python scripts to upload the sample files to the S3 buckets
+
+```
+$python s3upload.py
+
+```
 
 ### Reference
 - [aws_s3_bucket](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket) is used for managing S3
