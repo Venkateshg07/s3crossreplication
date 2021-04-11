@@ -1,4 +1,4 @@
-# S3 Cross  Region Replication 
+# S3 Cross  Region Replication using Terraform
 
 This project is under active development. The main aim of this project is to implement the s3 cross region replication
 
