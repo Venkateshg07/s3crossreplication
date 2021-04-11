@@ -13,8 +13,13 @@ This project is under active development. The main aim of this project is to imp
 - **CI/CD:** [workflow](./.circleci/config.yml) for the Terraform is mantaining in the circleci 
 - **Scripting language** Python is used for uploading the files to the s3 bucket
 
-### Sample Usecase - Architecture
+### Sample Usecase:
 
+#### Usecase:
+
+- 2(two) S3 Buckets in 2(two) regions( Virginia/Oregon) with x2 replication
+
+#### Architecture:
 
 <img width="400" align="center" alt="CRR Arch" src="./img/CRRArch.png">
 
