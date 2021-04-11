@@ -2,7 +2,7 @@
 
 This project is under active development. The main aim of this project is to implement the s3 cross region replication
 
-## Prerequisties ##
+### Prerequisties ##
 
 - **Cloud:** In the project is mainly for on `aws` cloud and the services which used for this cross region replication are `s3`, `kms`, `Iam`. 
 
@@ -13,7 +13,7 @@ This project is under active development. The main aim of this project is to imp
 - **CI/CD:** [workflow](./.circleci/config.yml) for the Terraform is mantaining in the circleci 
 - **Scripting language** Python is used for uploading the files to the s3 bucket
 
-## Steps to follow to provision the infrastructure:
+### Steps to follow to provision the infrastructure:
 
 
 ### Reference
