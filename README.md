@@ -16,7 +16,7 @@ This project is under active development. The main aim of this project is to imp
 ### Sample Usecase - Architecture
 
 
-<img width="300" align="centre" alt="CRR Arch" src="./img/CRRArch.png">
+<img width="400" align="center" alt="CRR Arch" src="./img/CRRArch.png">
 
 ### Steps to follow to provision the infrastructure:
 
